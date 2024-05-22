@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script defer src="scripts/main.js"></script>
+    <title>Document</title>
+</head>
+<body style="background-color: pink;">
+    <header class="container-fluid" style="background-color: rgb(253, 219, 224);">
+        <div class="menu container">
+            <div class="icon">
+                <img class="logo" src="/images/cherry-logo.png" alt="Flor de cerezo">
+            </div>
+            <b style="font-size: 40px; color: white;"> JOSEI </b>
+            <input type="checkbox" id="menu" />
+             <label for="menu">
+                <img class='menu-icono'src="images/menu.png" alt="">
+            </label>
+            
+            <nav class="navbar">
+                <ul>
+                    <li><a class='btn' href="index.html">HOME</a></li>
+                    <li><a class='btn' href="shoujo.html">SHOUJO</a></li>
+                    <li><a class='btn' href="josei.html">JOSEI</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container bootstrap snipets">
+        <div class="row flow-offset-1">
+          <div class="col-xs-6 col-md-4">
+            <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/2/261416.jpg" alt=""></a>
+              <div class="caption">
+                <a class='btn' href="https://myanimelist.net/manga/26704/Shouwa_Genroku_Rakugo_Shinjuu?q=Shouwa%20genroku%20rakugo%20shinjuu&cat=manga">Shouwa Genroku Rakugo Shinjuu</a></h6>
+              </div>
+              <div id="sinopsis1" style="display: none;"><p class="sinopsis">
+                Yotarō, el protagonista de la historia, acaba de salir de la cárcel y solo tiene un objetivo: convertirse en el aprendiz de Yakumo Yurakutei VIII,
+                un maestro del rakugo, arte japonés de contar historias de monólogo. Tras ser aceptado por Yakumo conoce a su protegida, Konatsu, 
+                hija de otro gran exponente muerto de manera trágica: Sukeroku Yurakutei II. El joven Yotarō se esfuerza para dar lo mejor de sí y
+                encontrar su propio estilo de rakugo.
+              </p>
+              </div>
+              <button  onclick='muestra_oculta("sinopsis1")' class="btn btn-primary" form="sinopsis1">Sinopsis+</button>
+            </div>
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/1/245072.jpg" alt="" ></a>
+              <div class="caption">
+                <a class='btn' href="https://myanimelist.net/manga/13245/Chihayafuru?q=Chihayafuru&cat=manga">Chihayafuru</a>
+              </div>
+              <div id="sinopsis2" style="display: none;"><p class="sinopsis">
+                Cuando Chihaya Ayase cursaba el sexto grado de primaria tenía como máximo sueño ver a su hermana convertida en una modelo reconocida. 
+                Su mundo se transforma cuando conoce a Arata Wataya, un compañero de clase transferido de Fukui, quien, junto con enseñarle el verdadero significado de lo que era un sueño,
+                le desvela la magia del juego de cartas tradicional japonés: Karuta. Arata, además, le comparte su anhelo máximo: convertirse en el mejor jugador de karuta. 
+                Chihaya rápidamente se contagiará de su pasión por este juego y decidirá encaminar su nuevo sueño hacia el horizonte de convertirse en la mejor jugadora de karuta de Japón. 
+              </p>
+              </div>
+              <button  onclick='muestra_oculta("sinopsis2")' class="btn btn-primary" form="sinopsis2">Sinopsis+</button>
+            </div>
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/1/262323.jpg" alt="" ></a>
+              <div class="caption">
+                <a class='btn' href="https://myanimelist.net/manga/29/Paradise_Kiss">Paradise kiss</a>
+              </div>
+              <div id="sinopsis3" style="display: none;"><p class="sinopsis">
+                El fascinante mundo de la moda desde lo chic a lo bizarro. Yukari Hayasaka es una adolescente un poco conflictuada cuyo objetivo en la vida es que sus padres 
+                estén orgullosas de ella. hasta que un día, George -un atractivo y joven diseñador de ropas- se cruza en su camino. Él es el líder del Paradise Kiss, 
+                un grupo compuesto por los estudiantes del Instituto de Arte Yazawa, e irá provocando que Yukari abra sus ojos al mundo real, con todo lo que eso trae aparejado.
+                Esta comedia romántica cuenta con un grafismo realmente exquisito, y está emparentada con lo que en Japón se conoce como el estilo Elegant Gothic Lolita.
+              </p>
+              </div>
+              <button  onclick='muestra_oculta("sinopsis3")' class="btn btn-primary" form="sinopsis3">Sinopsis+</button>
+            </div>
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/3/254787.jpg" alt="" ></a>
+              <div class="caption">
+                <a class='btn' href="https://myanimelist.net/manga/28393/Sakamichi_no_Apollon">Sakamichi no Apollon</a>
+              </div>
+              <div id="sinopsis4" style="display: none;"><p class="sinopsis">
+                La historia está ambientada en la isla de Kyūshū, en una pequeña ciudad de la prefectura de Nagasaki; a mediados de 1960. Kaoru Nishimi es un chico tímido e 
+                ingenuo con problemas para hacer amigos, acostumbrado a cambiar de instituto constantemente a causa del trabajo de su padre. Sin embargo, el verano de 1966 
+                promete ser diferente gracias a dos compañeros que entrarán inesperadamente en su vida: Ritsuko Mukae, la delegada de la clase, y Sentaro Kawabuchi, un muchacho 
+                desaliñado y problemático acostumbrado a andar todo el día saltándose las clases o metiéndose en peleas. Gracias a Sentaro, Kaoru, hasta entonces pianista 
+                clásico, se adentra en el mundo del jazz. 
+              </p>
+              </div>
+              <button  onclick='muestra_oculta("sinopsis4")' class="btn btn-primary" form="sinopsis4">Sinopsis+</button>
+            </div>
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/2/153962.jpg" alt="" ></a>
+              <div class="caption">
+                <a class='btn' href="https://myanimelist.net/manga/419/Nodame_Cantabile">Nodame Cantabile</a>
+              </div>
+              <div id="sinopsis5" style="display: none;"><p class="sinopsis">
+                Shinichi Chiaki es uno de los mejores estudiantes de piano de su universidad así como un excelente violinista, pero su verdadero sueño es seguir los pasos de su 
+                mentor, Sebastiano Viera, y convertirse en director de orquesta. Tras una disputa con su tutor de piano, Chiaki es transferido a la clase de los "perdedores", 
+                donde conoce a Megumi Noda o Nodame, según se nombra ella cuando habla de sí misma en tercera persona. Nodame es una chica un tanto extravagante que cursa segundo 
+                año en la misma universidad especializándose en piano y con la que el protagonista entabla una extraña relación amistosa. La historia cuenta la lucha interior de 
+                Chiaki en su búsqueda por labrarse su propio futuro profesional como director de orquesta intentando salvar su mayor inconveniente: su fobia a los aviones y a los 
+                barcos, que irremediablemente lo recluye en Japón y le impide viajar al extranjero para continuar su formación y para encontrarse con Viera. 
+              </p>
+              </div>
+              <button  onclick='muestra_oculta("sinopsis5")' class="btn btn-primary" form="sinopsis5">Sinopsis+</button>
+            </div>
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/2/221355.jpg" alt="" ></a>
+              <div class="caption">
+                <a class='btn' href="https://myanimelist.net/manga/119279/Hirano_to_Kagiura">Hirano to Kagiura</a>
+              </div>
+              <div id="sinopsis6" style="display: none;"><p class="sinopsis">
+                Hirano, un chico de segundo año, vive en un dormitorio en su campus y recientemente se ha convertido en compañero de cuarto de Kagiura, de primer año. 
+                Kagiura es un estudiante muy entusiasta en el equipo de baloncesto, aunque tiene dificultades para levantarse por la mañana, dejando a Hirano como apoyo en ese 
+                sentido. Se llevan muy bien, y Hirano le tiene mucho afecto a su compañero de habitación sincero y directo. ¿Qué es lo que él no sabe? Kagiura está bastante 
+                enamorado de él.
+              </p>
+              </div>
+              <button  onclick='muestra_oculta("sinopsis6")' class="btn btn-primary" form="sinopsis6">Sinopsis+</button>
+            </div>
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/2/206107.jpg" alt="" ></a>
+              <div class="caption">
+                <a class='btn' href="https://myanimelist.net/manga/111229/Mystery_to_Iu_nakare">Mistery to Iu nakare</a>
+              </div>
+              <div id="sinopsis7" style="display: none;"><p class="sinopsis">
+                Totonô Kunô es un estudiante universitario cuyo pasatiempo favorito es resolver misterios, pero todo se tuerce cuando la policía se planta en la puerta de su casa 
+                y lo acusa de ser el principal sospechoso del asesinato de un compañero de clase. Según parece, el joven vivía en las cercanías y han hallado pruebas que indican 
+                que el culpable es Totonô. Cuando da comienzo el interrogatorio, los agentes descubrirán que, tras su rostro calmado y pelo afro, se encuentra un detective la mar 
+                de perspicaz. Pese a que todos los indicios apuntan a él, ¿será capaz de hallar al culpable que anda incriminándole y salir impune de esta acusación de asesinato?
+              </p>
+              </div>
+              <button  onclick='muestra_oculta("sinopsis7")' class="btn btn-primary" form="sinopsis7">Sinopsis+</button>
+            </div>
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/5/212566.jpg" alt=""></a>
+              <div class="caption">
+                <a class='btn' href="https://myanimelist.net/manga/128/Petshop_of_Horrors">Petshop of Horrors</a>
+              </div>
+              <div id="sinopsis8" style="display: none;"><p class="sinopsis">
+                El Conde D es el misterioso responsable de una tienda de animales exóticos en el Chinatown de Los Ángeles. Los animales que el Conde vende 
+                (regala, presta o simplemente cambia por caramelos), vienen con un contrato con tres cláusulas importantes. Estas cláusulas cambian dependiendo del animal 
+                vendido y romper este contrato induce (o provoca intencionalmente) consecuencias calamitosas para el comprador (consecuencias siempre relacionadas con los 
+                conflictos y problemas de su vida), ante los que la tienda no acepta ninguna responsabilidad.
+              </p>
+              </div>
+              <button  onclick='muestra_oculta("sinopsis8")' class="btn btn-primary" form="sinopsis8">Sinopsis+</button>
+            </div>
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/2/207950.jpg" alt=""></a>
+              <div class="caption">
+                <a class='btn' href="https://myanimelist.net/manga/107566/Otome_Game_no_Hametsu_Flag_shika_Nai_Akuyaku_Reijou_ni_Tensei_shiteshimatta">Hamefura</a>
+              </div>
+              <div id="sinopsis9" style="display: none;"><p class="sinopsis">
+                La única hija del duque Claes, Catarina, era orgullosa y egoísta porque fue malcriada por sus padres. Sin embargo, a la edad de ocho años, su padre la llevó al 
+                castillo real donde ella golpea su cabeza contra una piedra al tropezarse. Después de esto, logra recuperar los recuerdos de su vida anterior como una joven otaku 
+                de Japón que perdió la vida en un accidente de tráfico. Este mundo le parece familiar, por lo que se da cuenta de que es el del juego otome, Fortune Lover, que ella 
+                misma jugó antes de su accidente y que en realidad, reencarnó como la rival de la heroína y antagonista del juego. También recuerda que todo lo que le esperaba a 
+                Catarina al final del juego era el camino a la destrucción que termina en su exilio lejos del reino o su ejecución. Por lo tanto, Catarina dedicará todos sus 
+                esfuerzos a evitar un final destructivo para pasar una vejez pacífica. 
+              </p>
+              </div>
+              <button  onclick='muestra_oculta("sinopsis9")' class="btn btn-primary" form="sinopsis9">Sinopsis+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <footer>
+    2024 - Simón Mc Govern
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script defer src="scripts/main.js"></script>
+    <title>Document</title>
+</head>
+<body style="background-color: pink;">
+    <header class="container-fluid" style="background-color: rgb(253, 219, 224);">
+        <div class="menu container">
+            <div class="icon">
+                <img class="logo" src="/images/cherry-logo.png" alt="Flor de cerezo">
+            </div>
+            <b style="font-size: 40px; color:white;">SHOUJO</b>
+            <input type="checkbox" id="menu" />
+             <label for="menu">
+                <img class='menu-icono'src="images/menu.png" alt="">
+            </label>
+            
+            <nav class="navbar">
+                <ul>
+                    <li><a class='btn' href="index.html">HOME</a></li>
+                    <li><a class='btn' href="shoujo.html">SHOUJO</a></li>
+                    <li><a class='btn' href="josei.html">JOSEI</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+  <div class="container bootstrap snipets">
+    <div class="row flow-offset-1">
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/2/269202.jpg" alt=""></a>
+          <div class="caption">
+            <h6><a class='btn' href="https://myanimelist.net/manga/21525/Akatsuki_no_Yona">Akatsuki no Yona</a></h6>
+          </div>
+          <div id="sinopsis1" style="display: none;"><p class="sinopsis">
+            La historia se desarrolla en torno a Yona, la única princesa del Reino de Kouka, y como tal lleva una vida lujosa y sin preocupaciones dentro del castillo Hiryuu. Lo tiene todo: las mejores ropas y joyas, la más deliciosa comida, su padre el Emperador Il quien la adora, y a su guapo primo Soo-won, del que está enamorada. Ella cree que su vida sería perfecta si tan solo su cabello no fuera tan rojo y rebelde, y si su guardaespaldas Hak dejara de molestarla tanto. Sin embargo, este tranquilo estilo de vida llega a su fin el día en que Yona es traicionada por una de las personas que más confiaba. Una traición que hará añicos todos sus sueños y que la obligará a huir de su propio hogar. Con sólo una leyenda antigua para guiarla, se embarca en un viaje junto a Hak para encontrar a los legendarios dragones reencarnados para sobrevivir y salvar el Reino de Kouka. Esta aventura le enseñara valiosas lecciones a Yona pues conocerá frente a frente la dura realidad de su reino.
+          </p>
+          </div>
+          <button  onclick='muestra_oculta("sinopsis1")' class="btn btn-primary" form="sinopsis1">Sinopsis+</button>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/1/262324.jpg" alt="" height="320px"></a>
+          <div class="caption">
+            <h6><a class='btn' href="https://myanimelist.net/manga/28/Nana">Nana</a>
+          </div>
+          <div id="sinopsis2" style="display: none;"><p class="sinopsis">
+             	Nana Oosaki y Nana Komatsu son dos chicas de caracter completamente opuesto pero con más que el nombre en común. Se conocen en un tren camino a Tokyo, a donde se estan yendo a vivir para cumplir aquello que quieren. La dura y fria Nana Oosaki, busca convertirse en una estrella de Rock; mientras que la efusiva y poco centrada Nana Komatsu, quiere volver a reunirse con su novio, quien se había ido a vivir a Tokyo antes que ella. Este Shojo complejo y sofisticado para adultos es uno de los éxitos más grandes del manga en las últimas decadas. Cuenta también con adaptaciones al anime y a películas live action.
+          </p>
+          </div>
+          <button  onclick='muestra_oculta("sinopsis2")' class="btn btn-primary" form="sinopsis2">Sinopsis+</button>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/3/260099.jpg" alt="" height="320px"></a>
+          <div class="caption">
+            <h6><a class='btn' href="https://myanimelist.net/manga/1859/Natsume_Yuujinchou">Natsume Yuujinchou</a>
+          </div>
+          <div id="sinopsis3" style="display: none;"><p class="sinopsis">
+            La historia se centra en un adolescente huérfano llamado Takashi Natsume. Es un joven que a simple vista aparenta ser un chico normal, pero en realidad guarda un gran secreto, el cual adquirió por herencia de su abuela Reiko Natsume: tiene la habilidad de ver espíritus.
+            Reiko, tras su muerte, le hereda a su nieto el Yūjin-Chō (El libro de los amigos), un cuaderno de caligrafía japonesa que contiene los nombres de los espíritus que ella, en su juventud, había intimidado, derrotado, engañado o convencido para firmar un contrato en donde los volvía sus seguidores, privándole de su libre albedrío al quedar subyugados a su voluntad. 
+          </p>
+          </div>
+          <button  onclick='muestra_oculta("sinopsis3")' class="btn btn-primary" form="sinopsis3">Sinopsis+</button>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/3/269697.jpg" alt="" height="320px"></a>
+          <div class="caption">
+            <h6><a class='btn' href="https://myanimelist.net/manga/102/Fruits_Basket">Fruits Basket</a>
+          </div>
+          <div id="sinopsis4" style="display: none;"><p class="sinopsis">
+            Tras fallecer su madre, Tohru Honda decide no rendirse y seguir adelante con sus estudios y su trabajo de medio tiempo, aunque eso signifique vivir en una carpa en un lugar que no le pertenece. Cuando sus dueños la encuentran, le permiten quedarse con ellos a cambio de hacer sus quehaceres domésticos. Claro que eso no sería una situación muy normal que digamos cuando sus habitantes, la familia Sohma, son una gente tan especial. 30 de sus miembros, entre los que se incluyen Yuki y sus primos Shigure y Kyo (habitantes de la casa), sufren una maldición que los transforma en animales del zodíaco chino al ser abrazados por alguien del sexo opuesto. Y si bien Fruits Basket presenta un sin fin de situaciones hilarantes y divertidas, la maldición de los Sohma irá generando situaciones verdaderamente dramáticas y serias. En ese contexto, la presencia de Tohru es más que una influencia positiva para ellos.
+          </p>
+          </div>
+          <button  onclick='muestra_oculta("sinopsis4")' class="btn btn-primary" form="sinopsis4">Sinopsis+</button>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/3/267782.jpg" alt="" height="320px"></a>
+          <div class="caption">
+            <h6><a class='btn' href="https://myanimelist.net/manga/30/Ouran_Koukou_Host_Club">Ouran Koukou Host Club</a>
+          </div>
+          <div id="sinopsis5" style="display: none;"><p class="sinopsis">
+            Haruhi Fujioka es una estudiante becada en la prestigiosa Academia Ouran, una escuela secundaria ficticia para niños ricos ubicada en Bunkyō, Tokio. Buscando un lugar tranquilo en el cual estudiar, Haruhi tropieza con el club de anfitriones de dicha escuela, un grupo de seis estudiantes varones que se reúnen para entretener a sus "clientes". Durante el encuentro, Haruhi accidentalmente tropieza y rompe un florero antiguo valorado en ¥ 8,000,000 ($80,000 dólares, de acuerdo con la traducción oficial de Viz Media). Para pagar el costo del florero, se le dice que debe trabajar en el club como el chico de los recados. Sin embargo, la apariencia ambigua de Haruhi hace que sea confundida por los miembros como un estudiante varón y termina por convertirse en uno de los anfitriones del club, luego de que notasen que sabía como entretener a las chicas. Haruhi acepta convertirse en anfitrión debido a que piensa que esto le ayudará a pagar su deuda más rápido. Los miembros del club descubren su verdadero sexo uno por uno, pero mantienen este hecho en secreto. 
+          </p>
+          </div>
+          <button  onclick='muestra_oculta("sinopsis5")' class="btn btn-primary" form="sinopsis5">Sinopsis+</button>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/1/185359.jpg" alt="" height="320px"></a>
+          <div class="caption">
+            <h6><a class='btn' href="https://myanimelist.net/manga/974/Basara">Basara</a>
+          </div>
+          <div id="sinopsis6" style="display: none;"><p class="sinopsis">
+            La historia tiene lugar en un Japón futuro, reducido a un desierto árido por una catástrofe a fines del siglo xxi. El personaje principal es Sarasa, una niña cuyo hermano gemelo, Tatara, está profetizado para ser el «hijo del destino» (運命の子供 o 運命の少年) que traerá de vuelta la independencia del país y detendrá el gobierno tiránico del Rey Rojo. Cuando Tatara es asesinado, Sarasa finge ser él para evitar que los oprimidos pierdan la esperanza
+          </p>
+          </div>
+          <button  onclick='muestra_oculta("sinopsis6")' class="btn btn-primary" form="sinopsis6">Sinopsis+</button>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/2/235088.jpg" alt="" height="320px"></a>
+          <div class="caption">
+            <h6><a class='btn' href="https://myanimelist.net/manga/122906/Kieta_Hatsukoi">Kieta Hatsukoi</a>
+          </div>
+          <div id="sinopsis7" style="display: none;"><p class="sinopsis">
+            Aoki está perdidamente enamorado de Hatsumoto, una linda compañera de su salón de clases. Sin embargo, un día Hashimoto le presta una goma que pone “Ida (corazón)”, en referencia a otro chico del salón. Ida le ve la goma y piensa que es Aoki quien está enamorado de él... ¡Pero esto no es más que el comienzo del enredo amoroso!
+          </p>
+          </div>
+          <button  onclick='muestra_oculta("sinopsis7")' class="btn btn-primary" form="sinopsis7">Sinopsis+</button>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/3/155631.jpg" alt=""></a>
+          <div class="caption">
+            <h6><a class='btn' href="https://myanimelist.net/manga/660/Versailles_no_Bara">Versailles no Bara</a>
+          </div>
+          <div id="sinopsis8" style="display: none;"><p class="sinopsis">
+            La historia está ambientada en la Francia del siglo XVIII. Al cumplir los catorce años, Oscar François de Jarjayes (Lady Oscar) se convierte en capitana de la Guardia Imperial y protectora de la nueva princesa de Francia, María Antonieta, y así su destino de ser testigo de las transformaciones sociales queda marcado. Al pasar los años, la princesa, ahora convertida en reina, conoce al conde sueco Hans Axel Von Fersen, en una fiesta de disfraces a la cual asiste sin permiso del rey, y casi sin darse cuenta inicia un amor que pasa a la historia.
+          </p>
+          </div>
+          <button  onclick='muestra_oculta("sinopsis8")' class="btn btn-primary" form="sinopsis8">Sinopsis+</button>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/1/262927.jpg" alt=""></a>
+          <div class="caption">
+            <h6><a class='btn' href="https://myanimelist.net/manga/61097/Baraou_no_Souretsu">Baraou no Souretsu</a>
+          </div>
+          <div id="sinopsis9" style="display: none;"><p class="sinopsis">
+            A finales de la Edad Media, las casas de York y Lancaster se enfrentaron por el trono de Inglaterra en una sangrienta sucesión de contiendas, más tarde conocida como la Guerra de las Rosas. Ricardo, el hijo menor e intersexual del duque de York, está dispuesto a cualquier cosa por sentar a su padre en el trono. Pero sobre él pesa una cruel maldición: traerá ruina y destrucción sobre todo lo que ama.
+          </p>
+          </div>
+          <button  onclick='muestra_oculta("sinopsis9")' class="btn btn-primary" form="sinopsis9">Sinopsis+</button>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/5/262471.jpg" alt=""></a>
+          <div class="caption">
+            <h6><a class='btn' href="https://myanimelist.net/manga/121504/Yubisaki_to_Renren">Yubisaki to Renren</a>
+          </div>
+          <div id="sinopsis10" style="display: none;"><p class="sinopsis">
+            Yuki es una estudiante universitaria sorda de nacimiento que, a pesar de llevar aparatos auditivos auxiliares, no puede captar ningún sonido. Pese a ello, logra vivir plenamente su vida universitaria, que decidió seguir luego de quedar fascinada por un mundo tan vasto y por sus compañeros que intentan aprovechar al máximo su juventud. No tiene problemas para socializar con los demás y sigue lecciones como los demás estudiantes gracias a la ayuda de su mejor amiga Rin. Un día, mientras viaja en tren, conoce por casualidad a Itsuomi, un chico alto, guapo, seguro de sí mismo y con una gran pasión por los idiomas que se interesa por ella para aprender más sobre la lengua de signos. Yuki logra pedirle su número de teléfono al chico y desde ese momento comienzan a conocerse mejor, y desde ese momento Yuki comienza a descubrir el vasto mundo que la rodea, donde hay muchas cosas por descubrir y aprender; Lo mismo ocurre con Itsuomi, quien gradualmente se siente cada vez más atraído por ella. 
+          </p>
+          </div>
+          <button  onclick='muestra_oculta("sinopsis10")' class="btn btn-primary" form="sinopsis10">Sinopsis+</button>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/3/267328.jpg" alt=""></a>
+          <div class="caption">
+            <h6><a class='btn' href="https://myanimelist.net/manga/2921/Kaichou_wa_Maid-sama">Kaichou wa Maid-sama</a>
+          </div>
+          <div id="sinopsis11" style="display: none;"><p class="sinopsis">
+            La preparatoria Seika era un lugar sólo para hombres, pero recientemente se ha convertido en un colegio mixto, contando con apenas 20% de mujeres, ante un 80% de hombres. Allí, Misaki Ayuzawa toma en sus manos el poder, para hacer sentir seguras a las chicas, convirtiéndose en la presidenta del consejo estudiantil. Después de ser elegida, se gana entre los alumnos varones una muy mala fama por otorgar mayor preferencia hacia las mujeres de la escuela, por lo que muchos la odian. Sin embargo, a pesar de su apariencia ruda, Misaki trabaja a medio tiempo en un Maid Caffé Latte. Desafortunadamente, Takumi Usui, el chico más popular en la escuela se interesa en ella tras verla vestida con su uniforme de maid, pero acepta guardarle el secreto. La situación provoca hechos divertidos y románticos a lo largo del manga. 
+          </p>
+          </div>
+          <button  onclick='muestra_oculta("sinopsis11")' class="btn btn-primary" form="sinopsis11">Sinopsis+</button>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/1/209659.jpg" alt=""></a>
+          <div class="caption">
+            <h6><a class='btn' href="https://myanimelist.net/manga/31/Lovely%E2%98%85Complex">Lovely★Complex</a>
+          </div>
+          <div id="sinopsis12" style="display: none;"><p class="sinopsis">
+            La historia trata acerca de dos jóvenes; la joven Koizumi Risa, quien relativamente alta para su entorno (1,70 m; 5'8); y un chico, Atsushi Otani, bastante bajo para la media (1,56 m; 5'1). Son conocidos como All Hanshin Kyojin (un dúo de cómicos japoneses, uno es alto y otro bajo) desde que su profesor empezó a llamarlos así el primer día en el instituto. Desde el principio esto causó un conflicto entre los dos, que acabaron llevándose mal. Como ambos tenían problema en encontrar pareja, Otani, quien se interesó en una de las amigas de Risa (Chiharu), al darse cuenta de que a Risa le gustaba un chico de las clases de verano (Suzuki), le propuso dejar sus diferencias a un lado para ayudarse mutuamente. A partir de ese entonces empezaron a llevarse mejor incluso cuando peleaban frecuentemente. Pero ambos tienen muchas cosas en común, a pesar de su diferencia física. Su cantante favorito es el mismo, "Umibôzu"; esto los hace más unidos todavía y hace que sus amigos siempre quieran juntarlos como pareja. Y se van enamorando poco a poco. 
+          </p>
+          </div>
+          <button  onclick='muestra_oculta("sinopsis12")' class="btn btn-primary" form="sinopsis12">Sinopsis+</button>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/1/191262.jpg" alt=""></a>
+          <div class="caption">
+            <h6><a class='btn' href="https://myanimelist.net/manga/443/Mars">Mars</a>
+          </div>
+          <div id="sinopsis13" style="display: none;"><p class="sinopsis">
+            Kira una chica callada muy tranquila dedicada al arte. Rei es violento y muy popular entre las chicas. Que pasaría si un día los polos opuestos se conocen…? Cuando Kira ve a Rei besar una estatua del dios de la guerra en la cultura Griega llamado MARTE (MARS) se siente atraída artísticamente a Rei y le pide que modele para ella. Luego comienza a darse una relación amorosa entre ellos…pero podrán ser felices a pesar de todo la tristeza que los rodea debido a muchos secretos oscuros por descubrir. 
+          </p>
+          </div>
+          <button  onclick='muestra_oculta("sinopsis13")' class="btn btn-primary" form="sinopsis13">Sinopsis+</button>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/1/168283.jpg" alt=""></a>
+          <div class="caption">
+            <h6><a class='btn' href="https://myanimelist.net/manga/3378/Kimi_ni_Todoke">Kimi ni Todoke</a>
+          </div>
+          <div id="sinopsis14" style="display: none;"><p class="sinopsis">
+            Sawako Kuronuma, apodada Sadako por sus compañeros dado su parecido con el personaje de Ringu, siempre se ha expresado mal, o mejor dicho no sabe cómo hacerlo. Su mejor intento de una amable sonrisa es fácilmente confundido con un gesto psicótico o la cara del más aterrador espíritu maligno, impidiendo esto durante toda su vida que la gente conozca su dulce e inocente carácter. Hay rumores sobre que Sawako puede ver fantasmas, maldecir a las personas y traer mala suerte a quien se aproxime a ella. Pero cuando el popular muchacho Shota Kazehaya, comienza a hablar con ella todo cambia; se encuentra en un nuevo mundo, tratando de hacer amigos, hablando con gente diferente y no puede agradecer lo suficiente a Kazehaya por darle estas oportunidades. Lento pero seguro florece un dulce amor entre los dos que deberá superar muchas circunstancias y obstáculos en el camino, especialmente las inseguridades y temores de ambos.
+          </p>
+          </div>
+          <button  onclick='muestra_oculta("sinopsis14")' class="btn btn-primary" form="sinopsis14">Sinopsis+</button>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/2/258717.jpg" alt=""></a>
+          <div class="caption">
+            <h6><a class='btn' href="https://myanimelist.net/manga/4571/Akagami_no_Shirayuki-hime">Akagami no Shirayuki-hime</a>
+          </div>
+          <div id="sinopsis15" style="display: none;"><p class="sinopsis">
+            Shirayuki es una joven con un excepcional cabello pelirrojo. Raji, un famoso pero algo idiota príncipe, se ha encaprichado con ella y quiere hacerla su concubina. Sin otro lugar a donde ir, Shirayuki decide cortar su cabello y huye al país vecino, escapando de los hombres que el príncipe Raji ha enviado en su búsqueda. En su huida, se encuentra con un chico llamado Zen, al que se ofrece a curarle sus heridas. Zen decide ayudarla, pero, ¿cual es en realidad la verdadera identidad de este joven? 
+          </p>
+          </div>
+          <button  onclick='muestra_oculta("sinopsis15")' class="btn btn-primary" form="sinopsis15">Sinopsis+</button>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/2/256907.jpg" alt=""></a>
+          <div class="caption">
+            <h6><a class='btn' href="https://myanimelist.net/manga/24294/Ao_Haru_Ride">Ao Haru Ride</a>
+          </div>
+          <div id="sinopsis16" style="display: none;"><p class="sinopsis">
+            Yoshioka Futaba tiene algunas razones por las que quiere "reiniciar" su imagen de vida como un nuevo estudiante de secundaria. Porque ella es linda, ella fue condenada al ostracismo por sus amigas en la secundaria, y debido a un malentendido, no pudo concretar sus sentimientos a un chico el que siempre le ha gustado, Tanaka-kun. Ahora en la escuela secundaria, ella está decidida a ser tan poco femenina como sea posible para que sus amigas no vayan a estar celosas de ella. Mientras vivía su vida de esta manera con satisfacción, se encuentra con Tanaka-kun de nuevo, pero que ahora se conoce con el nombre de Mabuchi Kou. Él le dice que se sentía de la misma manera como lo hizo cuando eran más jóvenes, pero ahora las cosas no puede ser nunca de la misma forma otra vez. ¿Futaba podrá continuar con su amor que ni siquiera empezó desde hace tres años? 
+          </p>
+          </div>
+          <button  onclick='muestra_oculta("sinopsis16")' class="btn btn-primary" form="sinopsis16">Sinopsis+</button>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/3/180382.jpg" alt=""></a>
+          <div class="caption">
+            <h6><a class='btn' href="https://myanimelist.net/manga/36933/Ore_Monogatari">Ore Monogatari!!</a>
+          </div>
+          <div id="sinopsis17" style="display: none;"><p class="sinopsis">
+            Takeo Goda es un chico gigante con un gran corazón, pero por desgracia, eso espanta a las chicas, que siempre se van a por su mejor amigo, el guapo Sunakawa. Acostumbrado a ser un segundón con las mujeres, Takeo acepta ya su destino resignado. Un día salva a una chica llamada Yamato de un abusador en el tren, y de repente su vida amorosa da un giro de 180 grados. 
+          </p>
+          </div>
+          <button  onclick='muestra_oculta("sinopsis17")' class="btn btn-primary" form="sinopsis17">Sinopsis+</button>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/1/254936.jpg" alt=""></a>
+          <div class="caption">
+            <h6><a class='btn' href="https://myanimelist.net/manga/26178/Donten_ni_Warau">Donten ni Warau</a>
+          </div>
+          <div id="sinopsis18" style="display: none;"><p class="sinopsis">
+            En el undécimo año de la era Meiji las espadas estaban prohibidas por el gobierno y los conocidos como samurai fueron poco a poco desapareciendo. Sin embargo, hay un montón de cambios que están teniendo lugar en Japón e, inevitablemente uno de ellos es un aumento en la tasa de criminalidad. para resolver el problema se creo la prisión mas grande de japón en un lago. A la cárcel no hay otra forma de acceder a ella, sólo a través del agua, los 3 muchachos de la familia Kumo fueron asignados para el transporte de los criminales a su nuevo "hogar". ¿pero es lo único que están haciendo...? 
+          </p>
+          </div>
+          <button  onclick='muestra_oculta("sinopsis18")' class="btn btn-primary" form="sinopsis18">Sinopsis+</button>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/2/238267.jpg" alt=""></a>
+          <div class="caption">
+            <h6><a class='btn' href="https://myanimelist.net/manga/128463/Uruwashi_no_Yoi_no_Tsuki">Uruwashi no Yoi no Tsuki</a>
+          </div>
+          <div id="sinopsis19" style="display: none;"><p class="sinopsis">
+            "¡¿Un príncipe (♀) y un príncipe (♂) se enamoran?!" A pesar de ser una chica Yoi siempre ha sido tratada como un "príncipe" debido a su apariencia y su forma de ser. Al entrar al instituto, ¿de alguna manera termina involucrándose con un senpai al que también llaman "príncipe"? 
+          </p>
+          </div>
+          <button  onclick='muestra_oculta("sinopsis19")' class="btn btn-primary" form="sinopsis19">Sinopsis+</button>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/1/172099.jpg" alt=""></a>
+          <div class="caption">
+            <h6><a class='btn' href="https://myanimelist.net/manga/90334/Queens_Quality">Queen's Quality</a>
+          </div>
+          <div id="sinopsis20" style="display: none;"><p class="sinopsis">
+            Kyuutaro es un fanático de la limpieza, ¡no se cansa hasta que todo queda perfectamente limpio! ¡¿Un día frente a este chico, aparece una misteriosa chica que solicita ser su aprendiz ...?! Entonces será el momento es que su corazón sea limpiado. 
+          </p>
+          </div>
+          <button  onclick='muestra_oculta("sinopsis20")' class="btn btn-primary" form="sinopsis20">Sinopsis+</button>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/1/27280.jpg" alt=""></a>
+          <div class="caption">
+            <h6><a class='btn' href="https://myanimelist.net/manga/877/Hana_yori_Dango">Hana yori Dango</a>
+          </div>
+          <div id="sinopsis21" style="display: none;"><p class="sinopsis">
+            Tsukushi Makino tiene 16 años y es de clase trabajadora. Los (económicamente pobres) padres de la protagonista, hacen esfuerzos sobrehumanos para pagarle a su hija la colegiatura en la escuela privada más prestigiosa de Japón la Eitoku. Sin embargo Makino no consigue adaptarse del todo y su única intención es pasar desapercibida, pero todo cambia en el momento que se cruza en el camino de los F4.
+          </p>
+          </div>
+          <button  onclick='muestra_oculta("sinopsis21")' class="btn btn-primary" form="sinopsis21">Sinopsis+</button>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/2/164476.jpg" alt=""></a>
+          <div class="caption">
+            <h6><a class='btn' href="https://myanimelist.net/manga/912/Tomie">Tomie</a>
+          </div>
+          <div id="sinopsis22" style="display: none;"><p class="sinopsis">
+            Tomie es una chica misteriosa y hermosa de la que simplemente no te puedes deshacer. Ella vendrá a tu vida de la nada, y hagas lo que hagas, matarla o amarla, al final, ella volverá a ti. 
+          </p>
+          </div>
+          <button  onclick='muestra_oculta("sinopsis22")' class="btn btn-primary" form="sinopsis22">Sinopsis+</button>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/1/257992.jpg" alt=""></a>
+          <div class="caption">
+            <h6><a class='btn' href="https://myanimelist.net/manga/113/Clover">Clover</a>
+          </div>
+          <div id="sinopsis23" style="display: none;"><p class="sinopsis">
+            En un futuro distópico algunas personas nacen con poderes mágicos que les permiten controlar la tecnología y con ello por ejemplo, pueden teleportarse o hacer aparecer armas. A la gente que nace con poderes se la marca con un tatuaje de una flor de trébol indicando su nivel de poder con el número de hojas. Un Consejo de Ancianos llamado "Trébol de 5 hojas", es quien dirige el país. El consejo está formado por 5 tréboles de una hoja, que se protegen de quien pueda superarles en poder. La historia gira entorno a Suu (スウ Sū), cuyo nombre proviene de la nomenclatura del número cuatro en chino  "sì". Suu nació como la única trébol de cuatro hojas y si se aliara con algún otro trébol igualaría o superaría al Consejo, es por ello que estos la encerraron en una gran jaula en la que solo tiene contacto con autómatas. Al principio de la historia conocemos que el Consejo ha aceptado la petición de Suu de visitar el “Parque de las Hadas” y por ello piden a "Kazuhiko", un militar ret 
+          </p>
+          </div>
+          <button  onclick='muestra_oculta("sinopsis23")' class="btn btn-primary" form="sinopsis23">Sinopsis+</button>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/1/168683.jpg" alt=""></a>
+          <div class="caption">
+            <h6><a class='btn' href="https://myanimelist.net/manga/92509/IDOLiSH7">IDOLiSH7</a>
+          </div>
+          <div id="sinopsis24" style="display: none;"><p class="sinopsis">
+            Tsumugi Takanashi, una mánager novata quien es encomendada por su padre, el presidente de una pequeña agencia llamada Takanashi Production, para ser la representante de un nuevo grupo de idols masculinos. El grupo pasa a llamarse "IDOLiSH7" y se compone de siete miembros, cada uno con diferente personalidad y pasado. Tsumugi debe entrenar y convertir a los inexperimentados muchachos en idols populares, continuamente luchando contra las dificultades de la industria del entretenimiento.
+          </p>
+          </div>
+          <button  onclick='muestra_oculta("sinopsis24")' class="btn btn-primary" form="sinopsis24">Sinopsis+</button>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/5/166652.jpg" alt=""></a>
+          <div class="caption">
+            <h6><a class='btn' href="https://myanimelist.net/manga/173/Cowboy_Bebop">Cowboy Bebop</a>
+          </div>
+          <div id="sinopsis25" style="display: none;"><p class="sinopsis">
+            Transcurre el año 2071. La tripulación de la nave BEBOP, inicialmente compuesta por Spike Spiegel y Jet Black, viaja por todo el Sistema Solar en busca de recompensas. A lo largo de sus aventuras se incorporan tres nuevos personajes a su tripulación: Faye Valentine, Ed y, la mascota, Ein. Durante sus aventuras se desvela la tortuosa relación entre el protagonista, Spike, y su viejo camarada Vicious lo que conduce al desenlace de la serie. La relación de Spike con los demás coprotagonistas, y sus trasfondos, se dejan entrever en los capítulos intermedios de la serie. 
+          </p>
+          </div>
+          <button  onclick='muestra_oculta("sinopsis25")' class="btn btn-primary" form="sinopsis25">Sinopsis+</button>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/3/187122.jpg" alt=""></a>
+          <div class="caption">
+            <h6><a class='btn' href="https://myanimelist.net/manga/101396/Sasaki_to_Miyano">Sasaki to Miyano</a>
+          </div>
+          <div id="sinopsis26" style="display: none;"><p class="sinopsis">
+            Miyano es un estudiante de secundaria con un secreto: es un fanboy del BL. Es un apasionado de su hobby, pero no lo comparte con otros fácilmente, hasta que un encuentro casual con un sempai peculiar llamado Sasaki trae una nueva amistad. Sasaki no sabe qué diablos es un 'seme' o 'uke', o por qué debería estar preocupado cuando Miyano amenaza con hacer un doujinshi que lo involucre, ¡pero está ansioso por aprender sobre el pasatiempo de su nuevo amigo!.
+          </p>
+          </div>
+          <button  onclick='muestra_oculta("sinopsis26")' class="btn btn-primary" form="sinopsis26">Sinopsis+</button>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class='image-2' src="https://cdn.myanimelist.net/images/manga/3/139647.jpg" alt=""></a>
+          <div class="caption">
+            <h6><a class='btn' href="https://myanimelist.net/manga/4334/Crazy_for_You">Crazy for You</a>
+          </div>
+          <div id="sinopsis27" style="display: none;"><p class="sinopsis">
+            Sachi es estudiante de una preparatoria que es solo para chicas, y por lejos es la más despistarda. En su primera cita grupal, ella conoce a un chico llamado Yuki-chan, quien finalmente termina con su racha de 17 años sin tener novio y...? 
+          </p>
+          </div>
+          <button  onclick='muestra_oculta("sinopsis27")' class="btn btn-primary" form="sinopsis27">Sinopsis+</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    2024 - Simón Mc Govern
+  </footer> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
