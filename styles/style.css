@@ -182,7 +182,7 @@ footer{
     height: 300px;
 }
 
-@media(max-width:991px) {
+@media(max-width:1290px) {
     
     .menu{
         top: 0;
@@ -214,8 +214,12 @@ footer{
     #menu:checked ~ .navbar{
         display: initial;
     }
-
-    .carousel-inner img{
-        margin-left: 10px;
+    .carousel-content h2{
+        margin-left: 100px;
     }
-}
+    
+    .carousel-inner img{
+        margin-left: 100px;
+        width: 210px;
+        height: 300px;
+    }
