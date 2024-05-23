@@ -214,4 +214,8 @@ footer{
     #menu:checked ~ .navbar{
         display: initial;
     }
+
+    .carousel-inner img{
+        margin-left: 100px;
+    }
 }
